@@ -78,6 +78,3 @@ function printTime(t) {
   minutesEl.textContent = addLeadingZero(t.minutes);
   secondsEl.textContent = addLeadingZero(t.seconds);
 }
-<script>
-  Notiflix.Notify.success('Успішне повідомлення');
-</script>
